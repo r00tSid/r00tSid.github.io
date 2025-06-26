@@ -29,4 +29,4 @@ Passionate about discovering and responsibly disclosing vulnerabilities in web, 
 - GitHub: [r00tSid](https://github.com/r00tSid)  
 - Twitter: [@r00tSid](https://twitter.com/r00tSid)  
 - Email: sidhant0703@gmail.com
-- 
+
