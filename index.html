@@ -3,116 +3,78 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sidhanta Palei | Cybersecurity Engineer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="Official portfolio of r00tSid (Sidhanta Palei) - Security Researcher, Bug Bounty Hunter, and Creator of Flawless Recon." />
+  <meta name="keywords" content="r00tSid, Sidhanta Palei, bug bounty, security researcher, hacker, GitHub, XSS, cybersecurity" />
+  <meta name="author" content="Sidhanta Palei" />
+  <title>r00tSid | Security Researcher</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sidhanta Palei",
+      "alternateName": "r00tSid",
+      "url": "https://r00tsid.github.io",
+      "sameAs": [
+        "https://github.com/r00tSid",
+        "https://twitter.com/r00tSid",
+        "https://linkedin.com/in/sidhantapalei",
+        "https://medium.com/@r00tSid"
+      ],
+      "jobTitle": "Security Researcher",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance / Bug Bounty Platforms"
+      },
+      "knowsAbout": ["Cybersecurity", "Bug Bounty", "GoLang", "XSS", "CVE", "GitHub Secrets"]
+    }
+  </script>
 </head>
-<body class="bg-gray-900 text-white font-sans">
+<body class="bg-dark text-white">
+  <div class="container py-5">
+    <h1 class="display-4 text-center">Hi, I’m <span class="text-warning">r00tSid</span></h1>
+    <p class="lead text-center">aka Sidhanta Palei — Security Researcher, Bug Bounty Hunter, and Builder of Flawless Tools.</p>
+    <hr />
 
-  <header class="p-6 bg-gray-800 shadow-lg">
-    <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <h1 class="text-3xl font-bold">Sidhanta Palei</h1>
-      <nav class="space-x-4">
-        <a href="#projects" class="hover:underline">Projects</a>
-        <a href="#experience" class="hover:underline">Experience</a>
-        <a href="#skills" class="hover:underline">Skills</a>
-        <a href="#contact" class="hover:underline">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <section class="my-5">
+      <h2>🔍 About Me</h2>
+      <p>
+        I'm a passionate ethical hacker who has helped secure platforms like <strong>NASA</strong>, <strong>Delhi Govt</strong>, and <strong>Cloudflare</strong> by responsibly disclosing critical vulnerabilities. My focus areas include <strong>XSS</strong>, <strong>secret exposure</strong>, and <strong>automation tools</strong> for recon.
+      </p>
+    </section>
 
-  <section class="max-w-4xl mx-auto p-6 mt-8">
-    <h2 class="text-2xl font-semibold mb-2">About Me</h2>
-    <p class="text-gray-300">
-      I'm a Computer Science undergrad at Parul University, specializing in cybersecurity. I actively participate in bug bounty programs and vulnerability research and have worked with NASA, Cloudflare, and the Government of India. I build security tools, practice offensive methodologies, and enjoy automating recon workflows.
-    </p>
-  </section>
+    <section class="my-5">
+      <h2>🛠 Projects</h2>
+      <ul>
+        <li><strong>Flawless Recon:</strong> Fully automated recon pipeline with Subfinder, PureDNS, httpx, Nuclei & Telegram bot integration.</li>
+        <li><strong>XSS Katana:</strong> Advanced XSS scanner with support for Blind XSS, DOM XSS, and custom payload injection.</li>
+        <li><strong>GitHunter-Pro:</strong> Tool to restore deleted GitHub files, extract secrets and notify via Telegram.</li>
+      </ul>
+    </section>
 
-  <section id="skills" class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4">Skills</h2>
-    <div class="grid grid-cols-2 gap-4 text-gray-300">
-      <div>
-        <strong>Languages:</strong> Java, Python, C, Bash<br>
-        <strong>Tools:</strong> Nmap, Burp Suite, SQLMap, Metasploit, Wireshark<br>
-        <strong>Security:</strong> VAPT, IDS/IPS, OWASP Top 10
-      </div>
-      <div>
-        <strong>DevOps:</strong> Git, GitHub, CI/CD, Docker, REST APIs<br>
-        <strong>Cloud:</strong> AWS, GCP, Azure (Basics)<br>
-        <strong>Soft Skills:</strong> Analytical thinking, teamwork
-      </div>
-    </div>
-  </section>
+    <section class="my-5">
+      <h2>🏆 Achievements</h2>
+      <ul>
+        <li>Reported CVEs and secured NASA systems — <a href="#" class="text-info">Letter of Appreciation</a></li>
+        <li>Discovered exposed Zotero API leading to unauthorized access</li>
+        <li>Received recognition from Delhi Government’s Trade & Tax Portal</li>
+        <li>Reported package confusion bug to Cloudflare</li>
+      </ul>
+    </section>
 
-  <section id="experience" class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4">Experience</h2>
-    <div class="space-y-4 text-gray-300">
-      <div>
-        <h3 class="font-bold">Freelance Security Researcher (2023 – Present)</h3>
-        <ul class="list-disc ml-6">
-          <li>Worked with NASA, Cloudflare, Inditex, Yuga Labs, Govt. of India</li>
-          <li>Recon, API testing, permission misconfigs, auth analysis</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="font-bold">Cyber Security Intern @ Msinterface (Jul–Aug 2024)</h3>
-        <ul class="list-disc ml-6">
-          <li>Developed Python tools (Keylogger, Caesar Cipher, Password Checker)</li>
-          <li><a href="https://github.com/r00tSid/MSINTERFACE" class="underline text-blue-400" target="_blank">GitHub Repo</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    <section class="my-5">
+      <h2>🔗 Connect</h2>
+      <ul>
+        <li><a href="https://github.com/r00tSid" class="text-info">GitHub</a></li>
+        <li><a href="https://twitter.com/r00tSid" class="text-info">Twitter</a></li>
+        <li><a href="https://linkedin.com/in/sidhantapalei" class="text-info">LinkedIn</a></li>
+        <li><a href="https://medium.com/@r00tSid" class="text-info">Medium</a></li>
+      </ul>
+    </section>
 
-  <section id="projects" class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4">Projects</h2>
-    <div class="space-y-4 text-gray-300">
-      <div>
-        <h3 class="font-bold">PACO – Package Confuser</h3>
-        <p>Chrome extension that scans for dependency confusion.</p>
-        <a href="https://github.com/r00tSid/PACO-Package-Confuser" class="text-blue-400 underline" target="_blank">GitHub</a>
-      </div>
-      <div>
-        <h3 class="font-bold">Sub-Enum – Subdomain Tool</h3>
-        <p>Python tool using crt.sh for subdomain enumeration.</p>
-        <a href="https://github.com/r00tSid/Sub-Enum" class="text-blue-400 underline" target="_blank">GitHub</a>
-      </div>
-      <div>
-        <h3 class="font-bold">Net-Listner – Netcat Alternative</h3>
-        <p>Socket-based file/message transfer tool in Python.</p>
-        <a href="https://github.com/r00tSid/Net-Listner" class="text-blue-400 underline" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4">Certifications</h2>
-    <ul class="list-disc ml-6 text-gray-300">
-      <li>Cryptography and Network Security (NPTEL)</li>
-      <li>Android Bug Hunting, Ethical Hacking Essentials – EC-Council</li>
-      <li>210W-06 ICS Cybersecurity Threats – CISA</li>
-    </ul>
-  </section>
-
-  <section class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4">TryHackMe</h2>
-    <p class="text-gray-300">
-      Ranked in top 6% globally. 60+ labs completed in pentesting, Linux, and networking.<br>
-      <a href="https://tryhackme.com/p/SidhantaPalei" class="text-blue-400 underline" target="_blank">TryHackMe Profile</a>
-    </p>
-  </section>
-
-  <section id="contact" class="max-w-4xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4">Contact</h2>
-    <p class="text-gray-300">
-      📧 Email: <a href="mailto:sidhant0703@gmail.com" class="text-blue-400 underline">sidhant0703@gmail.com</a><br>
-      🧑‍💻 GitHub: <a href="https://github.com/r00tSid" class="text-blue-400 underline" target="_blank">r00tSid</a><br>
-      💼 LinkedIn: <a href="https://linkedin.com/in/sidhanta-palei-58791323b" class="text-blue-400 underline" target="_blank">Sidhanta Palei</a>
-    </p>
-  </section>
-
-  <footer class="text-center p-4 text-gray-500 mt-8 border-t border-gray-700">
-    © 2025 Sidhanta Palei — All rights reserved.
-  </footer>
-
+    <footer class="text-center mt-5">
+      <p class="text-muted">&copy; 2025 r00tSid | Made with 💻 and ☕</p>
+    </footer>
+  </div>
 </body>
 </html>
