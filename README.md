@@ -44,7 +44,7 @@ Python tool for subdomain enumeration using crt.sh and DNS lookups.
 
 Want to collaborate or report a bug? Reach out via:
 
-* 📧 Email: [sidhantapalei@email.com](mailto:sidhant0703@email.com)
+* 📧 Email: [sidhant0703@email.com](mailto:sidhant0703@email.com)
 * 💼 [LinkedIn](https://www.linkedin.com/in/sidhanta-palei-58791323b/)
 * 🐙 [GitHub](https://github.com/r00tSid)
 * 🐦 [Twitter](https://twitter.com/r00tSid)
