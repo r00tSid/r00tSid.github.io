@@ -1,7 +1,3 @@
-Here's a professional and engaging `README.md` for your GitHub portfolio project based on the contents of your `index.html` file:
-
----
-
 # 🚀 Sidhanta Palei | Portfolio Website
 
 Welcome to my personal portfolio website! This site is a showcase of my journey as a **Security Researcher**, including my achievements, notable projects, and contact details. It’s built with HTML, CSS, and JavaScript and is fully responsive.
@@ -48,7 +44,7 @@ Python tool for subdomain enumeration using crt.sh and DNS lookups.
 
 Want to collaborate or report a bug? Reach out via:
 
-* 📧 Email: [sidhantapalei@email.com](mailto:sidhantapalei@email.com)
+* 📧 Email: [sidhantapalei@email.com](mailto:sidhant0703@email.com)
 * 💼 [LinkedIn](https://www.linkedin.com/in/sidhanta-palei-58791323b/)
 * 🐙 [GitHub](https://github.com/r00tSid)
 * 🐦 [Twitter](https://twitter.com/r00tSid)
@@ -73,14 +69,10 @@ Want to collaborate or report a bug? Reach out via:
 
 ## 📸 Preview
 
-![screenshot](image.jpeg) <!-- Replace with actual hosted image URL if deployed -->
+![screenshot](portfolio.png) <!-- Replace with actual hosted image URL if deployed -->
 
 ---
 
 ## 📄 License
 
 This project is open-source and free to use under the [MIT License](LICENSE).
-
----
-
-Let me know if you'd like me to include a hosted GitHub Pages link, deployment instructions, or badges (like GitHub stars, forks, etc.).
