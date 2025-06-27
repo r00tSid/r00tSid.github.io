@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+     <header class="header">
+
+      <a href="#home" class="logo">
+        Sidhanta  <span>Palei</span>
+      </a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#achievements">Achievments</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="gradient-btn">Contact Me</button>
+ 
+     </header>
+     <section class="home" id="home">
+        <div class="home-content">
+          <h1>Hi, It's <span>Sidhanta</span>||<span>r00tSid</span></h1>
+          <h3>
+            I'm a <span>Security Researcher</span>
+          </h3>
+          <p>
+            I'm a Computer Science undergraduate and passionate security researcher known for discovering critical vulnerabilities across platforms like NASA, the Delhi Govt, and private programs. I specialize in offensive security, bug bounty hunting, and building automation tools that streamline recon and vulnerability detection. Eager to contribute to a proactive security team where real-world impact matters.
+          </p>
+          <div class="social-icons">
+            <a href="https://github.com/r00tSid" target="_blank" aria-label="GitHub"
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sidhanta-palei-58791323b/" target="_blank" aria-label="LinkedIn">
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="https://twitter.com/r00tSid" target="_blank" aria-label="Twitter">
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+          <div class="btn-group">
+            <a href="mailto:sidhantapalei@email.com" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+          </div>
+        </div>
+          
+
+        <div class="home-img">
+          <img src="image.jpeg" alt="">
+        </div>
+
+     </section>
+
+     <section class="about" id="about">
+      <div class="about-img">
+        <img src="image.jpeg" alt="">
+      </div>
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>I’m Sidhanta Palei, an ethical hacker and security researcher with a deep interest in uncovering and reporting real-world vulnerabilities that have a meaningful impact.
+
+Over time, I’ve responsibly disclosed multiple critical bugs to organizations such as NASA, the Delhi Government (Trade and Taxes portal), Yuga Labs, Inditex Group, Elisa OYJ, and Cloudflare, including vulnerabilities involving unauthenticated access, exposed credentials, and logic flaws. Some of my reports have helped secure national infrastructure and global platforms, earning recognition and appreciation from top-tier security teams.
+
+My bug hunting journey involves diving deep into web applications, APIs, open-source packages, and cloud misconfigurations. I’ve uncovered issues ranging from CORS misconfigurations and blind XSS to package confusion and DoS vectors like /panic and goroutine exhaustion. One of my reported bugs stemmed from a public Zotero API key, which allowed unauthorized write access to NASA’s Zotero group — leading to a serious security concern being resolved.
+
+I regularly explore advanced techniques like hunting for secrets in deleted GitHub files and unreachable blobs, identifying unlisted endpoints, and analyzing real-world CVEs to improve my approach.
+
+Currently, I’m focused on deepening my expertise in offensive security, while continuing to contribute to a safer internet by reporting vulnerabilities across bug bounty platforms and private programs.</p>
+
+          <a href="#" class="btn">Read More</a>
+      </div>
+     </section>
+
+     <section class="achievements" id="achievements">
+      <h2 class="heading">Achievments</h2>
+
+
+      <div class="achievements-container">
+        <div class="achievements-box">
+          <div class="achievements-info">
+            <i class="bx bx-bug"></i>
+            <h4>NASA</h4>
+            <p>Reported a critical vulnerability involving an exposed Zotero API key that allowed unauthorized write access to a public NASA library. The issue was acknowledged and resolved, earning appreciation from their security team.</p>  
+          </div>
+        </div>
+
+        
+        <div class="achievements-box">
+          <div class="achievements-info">
+            <i class="bx bx-shield-alt-2"></i>
+            <h4>Delhi Government Portal</h4>
+            <p>Discovered a CVE-level flaw in the Delhi Trade & Taxes portal, leading to a security patch and acknowledgment from NCIIPC under responsible disclosure.</p>  
+          </div>
+        </div>
+
+
+        
+        <div class="achievements-box">
+          <div class="achievements-info">
+            <i class="bx bx-terminal"></i>
+            <h4>Cloudflare</h4>
+            <p>Identified a package confusion vulnerability involving a private NPM module. Submitted a detailed PoC and collaborated with their security team during triage.</p>  
+          </div>
+        </div>
+      </div>
+     </section>
+
+
+     <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+
+      <div class="projects-box">
+        <div class="project-card">
+          <img src="paco.png" alt="">
+
+          <h3>PACO – Package Confuser 🚀</h3>
+          <p>PACO (Package Confuser) is a Chrome extension that helps developers and security researchers identify dependency confusion risks by scanning GitHub repositories for unpublished, removed, or nonexistent packages in files like package.json, requirements.txt, and pom.xml, ensuring safer software supply chains.</p>
+          <a href="https://github.com/r00tSid/PACO-Package-Confuser" target="_blank" class="btn">Review Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="sub-enum.png" alt="">
+
+          <h3>Sub-Enum</h3>
+          <p>The Subdomain Enumeration Tool is a Python-based utility designed to identify subdomains of a specified domain using DNS lookups and certificate transparency logs from crt.sh. This tool is useful for security researchers and penetration testers seeking to gather information about a target domain.</p>
+          <a href="https://github.com/r00tSid/Sub-Enum" target="_blank" class="btn">Review Project</a>
+        </div>
+      </div>
+
+
+     </section>
+
+     <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="https://formspree.io/f/mqkrlrez" method="POST">
+        <div class="input-group">
+          <div class="input-box">
+             <input type="text" placeholder="Full Name" name="name" required>
+             <input type="email" placeholder="Email" name="email" required>
+          </div>
+          <div class="input-box">
+            <input type="tel" placeholder="Phone Number">
+            <input type="text" placeholder="Subject" name="subject" required>
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea name="" id="" placeholder="Your Message" cols="30" rows="10" required></textarea>
+          <input type="submit" value="Send Message" class="btn">
+        </div>
+      </form>
+     </section>
+
+     <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/r00tSid" target="_blank" aria-label="GitHub"
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sidhanta-palei-58791323b/" target="_blank" aria-label="LinkedIn">
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="https://twitter.com/r00tSid" target="_blank" aria-label="Twitter">
+              <i class="bx bxl-twitter"></i>
+            </a>
+        </div>
+
+        <ul class="list">
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#achievements">Achievements</a>
+          </li>
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <p class="copyright">
+          © Sidhanta Palei | All Rights Reserved
+        </p>
+     </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
