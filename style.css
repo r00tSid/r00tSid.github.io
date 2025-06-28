@@ -7,10 +7,10 @@
   font-family: "Poppins";
 }
 :root {
-  --bg-color: #080808;
-  --second-bg-color: #101010;
-  --text-color: white;
-  --main-color: #cc33cc;
+  --bg-color: #0a0f0d;
+  --second-bg-color: #121917;
+  --text-color: #00ff9f;
+  --main-color: #00ffe5;
 }
 html {
   font-size: 60%;
@@ -51,9 +51,9 @@ body{
 span{
   background: linear-gradient(
     90deg,
-    #cc33cc 10%,
-    #ff00aa 50%,
-    #df8908 100%
+    #00ff9f 0%,
+    #00ffe5 50%,
+    #0077ff 100%
   );
   background-clip: text;
   color: transparent;
@@ -76,9 +76,9 @@ span{
   border-radius: 3rem;
   background: linear-gradient(
     270deg,
-    #df8908 0%,
-    #ff00aa 50%,
-    #cc33cc 100%
+    #00ff9f 0%,
+    #00ffe5 50%,
+    #0077ff 100%
   );
   letter-spacing: 1px;
   cursor: pointer;
@@ -442,3 +442,99 @@ section{
   }
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 50%; /* Slightly smaller text scale */
+  }
+
+  .header {
+    padding: 2rem 5%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  section {
+    padding: 5rem 5%;
+  }
+
+  .home {
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+
+  .home-img img {
+    width: 80vw;
+  }
+
+  .home-content h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .home-content h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .home-content p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .about {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+
+  .about-img img {
+    width: 80vw;
+  }
+
+  .about-content h2 {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .achievements-container {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 2rem 1rem;
+  }
+
+  .project-card img {
+    max-width: 90%;
+  }
+
+  .projects-box {
+    grid-template-columns: 1fr;
+  }
+
+  .contact form {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .input-box input,
+  .contact textarea {
+    font-size: 1.6rem;
+  }
+
+  .btn-group {
+    flex-direction: column;
+  }
+
+  .footer ul {
+    font-size: 1.6rem;
+  }
+
+  .footer ul li {
+    margin: 1rem;
+  }
+
+  .gradient-btn {
+    font-size: 1.6rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
