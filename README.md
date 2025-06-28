@@ -69,7 +69,7 @@ Want to collaborate or report a bug? Reach out via:
 
 ## 📸 Preview
 
-![screenshot](portfolio.png) <!-- Replace with actual hosted image URL if deployed -->
+![screenshot](potfolio-1.png) <!-- Replace with actual hosted image URL if deployed -->
 
 ---
 
