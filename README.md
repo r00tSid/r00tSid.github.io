@@ -53,7 +53,7 @@ Want to collaborate or report a bug? Reach out via:
 
 ## 🌐 Live Preview
 
-> Coming soon: Deployed version of this portfolio.
+> [Preview](https://r00tsid.github.io/)
 
 ---
 
@@ -69,7 +69,7 @@ Want to collaborate or report a bug? Reach out via:
 
 ## 📸 Preview
 
-![screenshot](potfolio-1.png) <!-- Replace with actual hosted image URL if deployed -->
+![screenshot](portfolio-1.png) <!-- Replace with actual hosted image URL if deployed -->
 
 ---
 
