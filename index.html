@@ -238,8 +238,9 @@ Currently, I’m focused on deepening my expertise in offensive security, while 
       const canvas = document.getElementById('matrix-canvas');
       const ctx = canvas.getContext('2d');
 
-      canvas.width = document.documentElement.scrollWidth;
-      canvas.height = document.documentElement.scrollHeight;
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
 
 
       const letters = '01';
