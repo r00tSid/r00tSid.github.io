@@ -36,7 +36,8 @@
      </header>
      <section class="home" id="home">
         <div class="home-content">
-          <h1>Hi, It's <span>Sidhanta</span>||<span>r00tSid</span></h1>
+          <h1>Hi, It's <span>Sidhanta</span>||<span class="nowrap">r00tSid</span></h1>
+
           <h3>
             I'm a <span>Security Researcher</span>
           </h3>
@@ -238,39 +239,51 @@ Currently, I’m focused on deepening my expertise in offensive security, while 
       const canvas = document.getElementById('matrix-canvas');
       const ctx = canvas.getContext('2d');
 
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      function resizeCanvas() {
+        const dpr = window.devicePixelRatio || 1;
+        canvas.width = window.innerWidth * dpr;
+        canvas.height = window.innerHeight * dpr;
+        ctx.scale(dpr, dpr);
+      }
 
-
+      resizeCanvas();
+      window.addEventListener('resize', resizeCanvas);
 
       const letters = '01';
       const fontSize = 14;
-      const columns = canvas.width / fontSize;
-      const drops = Array(Math.floor(columns)).fill(1);
+      let columns;
+      let drops;
+
+      function setup() {
+        columns = Math.floor(window.innerWidth / fontSize);
+        drops = Array(columns).fill(1);
+      }
+
+      setup();
+      window.addEventListener('resize', setup);
 
       function drawMatrix() {
         ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-        ctx.fillStyle = '#00ff9f'; // Neon green
+        ctx.fillStyle = '#00ff9f';
         ctx.font = `${fontSize}px monospace`;
 
-        drops.forEach((y, x) => {
+        for (let x = 0; x < columns; x++) {
           const text = letters[Math.floor(Math.random() * letters.length)];
-          ctx.fillText(text, x * fontSize, y * fontSize);
+          ctx.fillText(text, x * fontSize, drops[x] * fontSize);
 
-          drops[x] = y * fontSize > canvas.height && Math.random() > 0.975 ? 0 : y + 1;
-        });
+          if (drops[x] * fontSize > window.innerHeight && Math.random() > 0.975) {
+            drops[x] = 0;
+          }
+
+          drops[x]++;
+        }
       }
 
       setInterval(drawMatrix, 33);
-
-      // Handle resizing
-      window.addEventListener('resize', () => {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-      });
     </script>
+
 
 
 
