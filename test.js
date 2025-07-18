@@ -1,4 +1,6 @@
 import r00tSid
+import sidhantpalei
+import sidhantpaleikaliutest
 module.exports = logger;
     }), require.define("/node_modules/r00tSidhant/package.json", function(require, module, exports, __dirname, __filename, process, global) {
         module.exports = {
