@@ -1,0 +1,52 @@
+# ==========================
+# Normal Public Packages
+# ==========================
+
+requests==2.31.0
+flask>=2.0.0
+numpy
+pandas<=2.1.0
+
+# ==========================
+# Version Range Variations
+# ==========================
+
+django~=4.2.0
+uvicorn>0.20.0
+fastapi!=0.100.0
+
+# ==========================
+# Non-Existent (Should Trigger Not Found)
+# ==========================
+
+internal-payment-service
+company-auth-middleware
+r00tsid-private-lib
+dt-adoptionoverview-extension
+super-secret-ml-model
+
+# ==========================
+# Typosquatting Style
+# ==========================
+
+requsets
+flaks
+numpyy
+panadas
+
+# ==========================
+# Internal Naming Patterns
+# ==========================
+
+acme-internal-utils
+corp-data-processor
+org-backend-core
+prod-auth-service
+
+# ==========================
+# Comments & Empty Lines
+# ==========================
+
+# This is a comment
+# Another comment
+
